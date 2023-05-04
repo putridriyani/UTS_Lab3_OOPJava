@@ -30,6 +30,7 @@ Nomor 4:
   Rumus Matematika: Limit Trigonometri
   ![image](https://user-images.githubusercontent.com/114595104/236225618-336f2ccf-bc73-443c-915f-d17ca8182266.png)
   Rumus Fisika: Energi Total
-  ![image](https://user-images.githubusercontent.com/114595104/236226113-05cc59d2-1f3f-4ab6-a2da-ec410973468a.png)
+  ![image](https://user-images.githubusercontent.com/114595104/236228907-2363f719-4f7f-4b4a-b03c-1cd1476c3948.png)
+
 
 
