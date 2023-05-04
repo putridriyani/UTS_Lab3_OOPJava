@@ -33,16 +33,25 @@ public class Main {
 
                 switch (pilihFungsi){
                     case 1:
-                        System.out.print("Limit dari fungsi sin(x)/x saat x mendekati " + x + " adalah ");
+                        System.out.print("Limit fungsi sin(x)/x saat x mendekati "+ x + " adalah ");
                         System.out.println(matematika.hitungLimitsin());
+                        System.out.print("\nContoh Perhitungan Limit Trigonometri yang lain:\n");
+                        System.out.print("Limit fungsi sin(x)/x saat x mendekati 0.05 adalah ");
+                        System.out.println(matematika.hitungLimitsin(0.05));
                         break;
                     case 2:
-                        System.out.print("Limit dari fungsi cos(x)/x saat x mendekati " + x + " adalah ");
+                        System.out.print("Limit fungsi cos(x)/x saat x mendekati "+ x + " adalah ");
                         System.out.println(matematika.hitungLimitcos());
+                        System.out.print("\nContoh Perhitungan Limit Trigonometri yang lain:\n");
+                        System.out.print("Limit fungsi cos(x)/x saat x mendekati 0.05 adalah ");
+                        System.out.println(matematika.hitungLimitcos(0.05));
                         break;
                     case 3:
-                        System.out.print("Limit dari fungsi tan(x)/x saat x mendekati " + x + " adalah ");
+                        System.out.print("Limit fungsi tan(x)/x saat x mendekati "+ x + " adalah ");
                         System.out.println(matematika.hitungLimittan());
+                        System.out.print("\nContoh Perhitungan Limit Trigonometri yang lain:\n");
+                        System.out.print("Limit fungsi tan(x)/x saat x mendekati 0.05 adalah ");
+                        System.out.println(matematika.hitungLimittan(0.05));
                         break;
                     default:
                         System.out.println("Pilihan tidak valid");
@@ -65,13 +74,14 @@ public class Main {
                 v = input.nextDouble();
                 System.out.print("Input Ketingggian Objek dari atas permukaaan tanah (m): ");
                 h = input.nextDouble();
+
                 Fisika fisika = new Fisika(m, v, h);
+                fisika.hitungTotal();
+                System.out.print("\n\nContoh Perhitungan Energi Kinetik dan Energi Potensial yang lain:");
+                fisika.hitungTotal(4, 75, 12);
+                fisika.hitungTotal(7, 65, 1000);
 
-                fisika.hitungKinetik();
-                fisika.hitungPotensial();
-                System.out.print("\nEnergi Total     : K + U         = " + fisika.hitungTotal() + " Joule");
                 break;
-
             default:
                 System.out.println("Pilihan tidak valid");
                 break;
