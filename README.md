@@ -28,7 +28,8 @@ Nomor 3: nim genap
 Nomor 4: 
 
   Rumus Matematika: Limit Trigonometri
-  ![image](https://user-images.githubusercontent.com/114595104/236166094-b14d460b-b088-4b63-8d19-14dbb5ece3b1.png)
+  ![image](https://user-images.githubusercontent.com/114595104/236225618-336f2ccf-bc73-443c-915f-d17ca8182266.png)
   Rumus Fisika: Energi Total
-  ![image](https://user-images.githubusercontent.com/114595104/236166366-d9af3dfb-9199-4e1f-a0dd-349976d4d55f.png)
+  ![image](https://user-images.githubusercontent.com/114595104/236226113-05cc59d2-1f3f-4ab6-a2da-ec410973468a.png)
+
 
