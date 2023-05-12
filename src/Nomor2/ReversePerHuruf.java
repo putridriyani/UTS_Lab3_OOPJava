@@ -3,8 +3,18 @@ import java.util.Scanner;
 public class ReversePerHuruf {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        String kalimat;
+
+        while (true) {
         System.out.print("Input : ");
-        String kalimat = input.nextLine();
+        kalimat = input.nextLine().trim();
+
+            if (!kalimat.isEmpty()) {
+                break;
+            }
+            System.out.println("Input tidak boleh kosong!");
+        }
+
 
         // konversi string ke char yang disimpan sebagai array
         char[] hasil = kalimat.toCharArray();
