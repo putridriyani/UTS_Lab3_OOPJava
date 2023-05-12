@@ -68,12 +68,27 @@ public class Main {
                         "U = energi potensial\n");
 
                 System.out.println("Menghitung Energi Kinetik dan Energi Potensial");
-                System.out.print("Input Massa Objek (kg)                                : ");
-                m = input.nextDouble();
-                System.out.print("Input Kecepatan Objek (m/s)                           : ");
-                v = input.nextDouble();
-                System.out.print("Input Ketingggian Objek dari atas permukaaan tanah (m): ");
-                h = input.nextDouble();
+                do {
+                    System.out.print("Input Massa Objek (kg)                                : ");
+                    m = input.nextDouble();
+                    if (m < 0) {
+                        System.out.println("Massa tidak boleh negatif. Silakan masukkan kembali.");
+                    }
+                } while (m < 0);
+                do {
+                    System.out.print("Input Kecepatan Objek (m/s)                           : ");
+                    v = input.nextDouble();
+                    if (v < 0) {
+                        System.out.println("Kecepatan tidak boleh negatif. Silakan masukkan kembali.");
+                    }
+                } while (v < 0);
+                do {
+                    System.out.print("Input Ketingggian Objek dari atas permukaaan tanah (m): ");
+                    h = input.nextDouble();
+                    if (h < 0) {
+                        System.out.println("Ketinggian tidak boleh negatif. Silakan masukkan kembali.");
+                    }
+                } while (h < 0);
 
                 Fisika fisika = new Fisika(m, v, h);
                 fisika.hitungTotal();
