@@ -15,22 +15,20 @@ e.	Method Setter dan Getter adalah sebuah teknik dalam pemrograman untuk mengaks
 Nomor 2:
 
   a. ReversePerHuruf
-  ![image](https://user-images.githubusercontent.com/114595104/236164636-0cad1980-31cf-4f11-bb7a-f2eec58df03f.png)
-  b. ReversePerKata
-  ![image](https://user-images.githubusercontent.com/114595104/236164949-aa4d9e3e-d9f8-4047-a50e-1559eeb73d77.png)
+  ![image](https://github.com/putridriyani/UTS_Lab3_OOPJava/assets/114595104/cca7528c-6bae-4636-a2ee-b3917bd3a27c)
 
+  b. ReversePerKata
+  ![image](https://github.com/putridriyani/UTS_Lab3_OOPJava/assets/114595104/9322cfeb-b1d6-42c1-ac1b-ca95d0cc4e71)
 
 Nomor 3: nim genap
-
 ![image](https://user-images.githubusercontent.com/114595104/236165376-b3a46720-2326-40db-af5b-e593b0632d15.png)
 
 
 Nomor 4: 
-
   Rumus Matematika: Limit Trigonometri
   ![image](https://user-images.githubusercontent.com/114595104/236225618-336f2ccf-bc73-443c-915f-d17ca8182266.png)
   Rumus Fisika: Energi Total
-  ![image](https://user-images.githubusercontent.com/114595104/236228907-2363f719-4f7f-4b4a-b03c-1cd1476c3948.png)
+  ![image](https://github.com/putridriyani/UTS_Lab3_OOPJava/assets/114595104/76075644-f61e-4d39-b928-b4b449157af1)
 
 
 
