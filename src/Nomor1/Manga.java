@@ -28,7 +28,7 @@ public class Manga {
         return umur;
     }
     public void setUmur(int umur) {
-        this.umur = vol;
+        this.umur = umur;
     }
 
     public Manga(){
