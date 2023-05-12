@@ -3,8 +3,17 @@ import java.util.Scanner;
 public class ReversePerKata {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        String kalimat;
+
+        while (true) {
         System.out.print("Input : ");
-        String kalimat = input.nextLine();
+        kalimat = input.nextLine().trim();
+
+            if (!kalimat.isEmpty()) {
+                break;
+            }
+            System.out.println("Input tidak boleh kosong!");
+        }
 
         // memisahkan string per karakter spasi dan menyimpannya dalam array
         String[] hasil = kalimat.split(" ");
